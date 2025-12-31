@@ -1,0 +1,34 @@
+{
+    "categorias":[
+        {
+            "nombre":"Frontend",
+            "habilidades":[
+                {"nombre": "HTML", "nivel": 60},
+                {"nombre": "CSS", "nivel": 50}, 
+                {"nombre": "TypeScript", "nivel": 60},
+                {"nombre": "React", "nivel": 30},
+                {"nombre": "Next.js", "nivel": 40},
+                {"nombre": "Angular", "nivel": 50},
+                {"nombre": "Tailwind CSS", "nivel": 50}
+            ]
+        },
+        {
+            "nombre":"Backend",
+            "habilidades":[
+                {"nombre": "Node.js", "nivel": 60},
+                {"nombre": "Express", "nivel": 60},
+                {"nombre": "Python", "nivel": 90},
+                {"nombre": "SQL", "nivel": 70}
+            ]
+        },
+        {
+            "nombre":"Herramientas",
+            "habilidades":[
+                {"nombre": "Azure", "nivel": 60},
+                {"nombre": "GitHub", "nivel": 80},  
+                {"nombre": "Docker", "nivel": 80},
+                {"nombre": "VS Code", "nivel": 90}
+            ]
+        }
+    ]
+}

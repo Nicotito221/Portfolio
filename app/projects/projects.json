@@ -1,0 +1,12 @@
+{
+    "projects": [
+    { "id": 1,
+    "title": "My Restaurant App",
+    "description": "A web application for managing restaurant orders and reservations.",
+    "link": "",
+    "image": "/images/restaurant-app.png",
+    "tags":["Angular", "TypeScript", "Node.js", "Express", "MySQL"]
+    }
+]
+}
+
