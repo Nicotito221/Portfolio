@@ -40,7 +40,26 @@ export default function Home() {
       </p>
       </div>
 
+      <nav className='space-y-4'>
+        <h3 className='text-xl font-bold text-emerald-400'>Menu</h3>
 
+        <div className='flex flex-col gap-3'>
+          <Link href="/about" className='w-1/2 border bg-black/30 border-gray-700/40 flex items-center justify-between p-3 cursor-pointer transition-colors duration-200 ease-linear hover:bg-zinc-800/40 rounded-lg '>
+          <span>About Me</span>
+          <BiChevronRight className='mr-5 text2xl translate-x-0 group-hover:translate-x-3 text-gray-300 opacity-0 group-hover:opacity-100 transition-all duration-200'></BiChevronRight>
+          </Link>
+
+           <Link href="/projects" className='w-1/2 border bg-black/30 border-gray-700/40 flex items-center justify-between p-3 cursor-pointer transition-colors duration-200 ease-linear hover:bg-zinc-800/40 rounded-lg '>
+          <span>About Me</span>
+          <BiChevronRight className='mr-5 text2xl translate-x-0 group-hover:translate-x-3 text-gray-300 opacity-0 group-hover:opacity-100 transition-all duration-200'></BiChevronRight>
+          </Link>
+
+           <Link href="/about" className='w-1/2 border bg-black/30 border-gray-700/40 flex items-center justify-between p-3 cursor-pointer transition-colors duration-200 ease-linear hover:bg-zinc-800/40 rounded-lg '>
+          <span>About Me</span>
+          <BiChevronRight className='mr-5 text2xl translate-x-0 group-hover:translate-x-3 text-gray-300 opacity-0 group-hover:opacity-100 transition-all duration-200'></BiChevronRight>
+          </Link>
+        </div>
+      </nav>
 
       </main>
     </div>
