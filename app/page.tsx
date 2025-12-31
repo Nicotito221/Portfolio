@@ -9,9 +9,9 @@ import {HiArrowDown} from 'react-icons/hi';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center transparent">
       <main className="w-full max-w-xl m-3 md:m-8 z-50 space-y-8
-      border border-gray-700/50 rounded-xl p-5 sm:p-10 backdrop-blur-xl bg-black/80">
+      border border-gray-700/50 rounded-xl p-5 sm:p-10 bg-black/80">
 
       <div className='flex sm:flex-row sm:justify-between sm:items-center flex-col-reverse items-start gap-3 sm:gap-10'>
         <div className='flex items-center gap-3'>
@@ -66,6 +66,25 @@ export default function Home() {
           </Link>
         </div>
       </nav>
+
+      <div className='flex gap-2 items-center'>
+      <h3 className='text-xl bg-clip-text font-bold text-transparent bg-blue-300'> Find me on:</h3>
+      <HiArrowDown className='text-2xl text-sky-400'></HiArrowDown>
+      </div>
+
+      <div className='flex flex-col gap-3'>
+      <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
+      <BiLogoGithub>Github</BiLogoGithub> 
+      </Button>
+
+       <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
+      <BiLogoInstagram>Instagram</BiLogoInstagram> 
+      </Button>
+
+       <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
+      <BiLogoLinkedin>Linkedin</BiLogoLinkedin> 
+      </Button>
+      </div>
 
       </main>
     </div>
