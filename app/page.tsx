@@ -73,17 +73,23 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col gap-3'>
-      <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
+      <Link href="https://github.com/Nicotito221">
+      <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear cursor-pointer'>
       <BiLogoGithub>Github</BiLogoGithub> 
       </Button>
+      </Link>
 
-       <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
+      <Link href = "https://www.instagram.com/nicotito22">
+       <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear cursor-pointer'>
       <BiLogoInstagram>Instagram</BiLogoInstagram> 
       </Button>
+      </Link>
 
-       <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear'>
+      <Link href = "https://www.linkedin.com/in/nicolas-emilio-angerossa">
+       <Button className='bg-black/30 w-full p-6 text-gray-600 border border-gray-700/40 hover:bg-slate-300/20 hover:text-white transition-colors duration-200 ease-linear cursor-pointer'>
       <BiLogoLinkedin>Linkedin</BiLogoLinkedin> 
       </Button>
+      </Link>
       </div>
 
       </main>
