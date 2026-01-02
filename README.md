@@ -1,18 +1,18 @@
-# Personal Portfolio - Nicolás E. Angerossa 👨‍💻
+# Personal Portfolio
 
 Welcome to my personal portfolio repository. Here you will find information about my background, technical skills, and the projects I have worked on.
 
-🌐 **Live Demo:** [nangerossaportfolio.vercel.app](https://nangerossaportfolio.vercel.app/)
+**Live Demo:** [nangerossaportfolio.vercel.app](https://nangerossaportfolio.vercel.app/)
 
 ---
 
-## 👋 About Me
+## About Me
 
 I am **Nicolás E. Angerossa**, a Junior Developer and **Systems Engineering** student at UTN Facultad Regional Delta, based in Campana, Argentina.
 
 I am passionate about web development, specifically crafting interactive and user-friendly interfaces (Frontend). I am currently expanding my knowledge into Backend technologies to become a well-rounded Full Stack Developer.
 
-### 📚 Education & Experience
+### Education & Experience
 * **Systems Engineering Student** - UTN Facultad Regional Delta (March 2022 - Present).
 * **Technical Support** - Coding Giants Spain (January 2025 - Present).
 * **Python Teacher** - Coding Giants Spain (October 2024 - November 2025).
@@ -47,24 +47,24 @@ My current tech stack includes:
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 You can find more details in the [Projects](https://nangerossaportfolio.vercel.app/projects) section.
 
-### 🍽️ My Restaurant App
+### My Restaurant App
 A complete web application for managing restaurant orders and reservations.
 * **Tech Stack:** Angular, TypeScript, Express, MySQL.
 * 🔗 [View Code](https://github.com/orgs/My-restaurant-FRD/repositories)
 
-### 🤖 Chatbot With Python
+### Chatbot With Python
 An intelligent chatbot application utilizing Natural Language Processing (NLP) to interact with users via Telegram.
 * **Tech Stack:** Python, NLP, Flask, Telegram API.
 * 🔗 [View Code](https://github.com/Practicas-profesionalizantes-UTN-Reyes/Chatbot)
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you are interested in collaborating or have any freelance opportunities, feel free to reach out.
 
-* 📩 Contact me directly via my website: [nangerossaportfolio.vercel.app/contact](https://nangerossaportfolio.vercel.app/contact)
+* Contact me directly via my website: [nangerossaportfolio.vercel.app/contact](https://nangerossaportfolio.vercel.app/contact)
