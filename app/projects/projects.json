@@ -3,9 +3,17 @@
     { "id": 1,
     "title": "My Restaurant App",
     "description": "A web application for managing restaurant orders and reservations.",
-    "link": "",
-    "image": "/images/restaurant-app.png",
-    "tags":["Angular", "TypeScript", "Node.js", "Express", "MySQL"]
+    "image": "/restaurant.jpg",
+    "tags":["Angular", "TypeScript", "Express", "MySQL"],
+    "link":"https://github.com/orgs/My-restaurant-FRD/repositories"
+    },
+    {
+    "id" : 2,
+    "title": "Chatbot With Python",
+    "description": "A chatbot application that uses natural language processing to interact with users.",
+    "image": "/chatbot.jpeg",
+    "tags":["Python", "NLP", "Flask", "Telegram API"],
+    "link":"https://github.com/Practicas-profesionalizantes-UTN-Reyes/Chatbot"
     }
 ]
 }
