@@ -32,15 +32,10 @@ const Page = () => {
           <Button variant="ghost" className="hover:bg-black hover:text-white rounded-full duration-300 cursor-pointer">Back to home<BsArrowLeft className="ml-2"/></Button>
         </Link>
 
-        <div className="space-y-4">
+        <div className="space-y-6 py-6">
           <h1 className="text-4xl font-bold">Contact Me</h1>
-        </div>
 
-        <div className="space-y-6">
-          <h3 className="text-xl font-semibold text-blue-300">Contact Information</h3>
-          
-          
-          <div className="space-y-4">
+          <div className="space-y-6">
             <h2 className="text-2xl font-semibold">Send Me a Message</h2>
 
             <form action={handleSubmit} className="space-y-4">

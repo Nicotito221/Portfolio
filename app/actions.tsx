@@ -38,11 +38,12 @@ export async function sendEmail(formData: FormData) {
     });
 
     if (error) {
+      console.error("Error de Resend:", error); // <--- AGREGA ESTO
       return { error: error.message };
     }
-
     return { success: true };
   } catch (error) {
+    console.error("Error del Servidor:", error); // <--- AGREGA ESTO
     return { error: 'Error al enviar el email' };
   }
 }
