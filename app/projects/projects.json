@@ -20,7 +20,7 @@
     "title": "Mí estado académico",
     "description": "A web application that allows students to view their academic status and grades (FOR ONLY AND EXCLUSIVELY UTN FRD students).",
     "image": "/estadoacademico.png",
-    "tags":["React", "TypeScript","Taylwind" ,"PostgreSQL"],
+    "tags":["React", "TypeScript","Tailwind" ,"PostgreSQL"],
     "link":"https://github.com/Nicotito221/Materias-Sistemas-FRD"
     }
 ]
